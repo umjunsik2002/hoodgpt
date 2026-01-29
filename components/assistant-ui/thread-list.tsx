@@ -44,11 +44,11 @@ export const ThreadList: FC<ThreadListProps> = ({ currentPerson, onChange }) => 
       </Button>
 
       <Button
-        variant={currentPerson === "Toronto gerbert" ? "secondary" : "ghost"}
-        className={`justify-start ${currentPerson === "Toronto gerbert" ? "font-bold" : ""}`}
-        onClick={() => onChange("Toronto gerbert")}
+        variant={currentPerson === "Toronto yute" ? "secondary" : "ghost"}
+        className={`justify-start ${currentPerson === "Toronto yute" ? "font-bold" : ""}`}
+        onClick={() => onChange("Toronto yute")}
       >
-        Toronto gerbert🇨🇦
+        Toronto yute🇨🇦
       </Button>
     </div>
   );
