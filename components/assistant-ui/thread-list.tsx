@@ -16,7 +16,7 @@ export const ThreadList: FC<ThreadListProps> = ({ currentPerson, onChange }) => 
         className={`justify-start ${currentPerson === "East LA foo" ? "font-bold" : ""}`}
         onClick={() => onChange("East LA foo")}
       >
-        East LA foo
+        East LA foo🌴
       </Button>
 
       <Button
@@ -24,7 +24,7 @@ export const ThreadList: FC<ThreadListProps> = ({ currentPerson, onChange }) => 
         className={`justify-start ${currentPerson === "Oakland fella" ? "font-bold" : ""}`}
         onClick={() => onChange("Oakland fella")}
       >
-        Oakland fella
+        Oakland fella🌉
       </Button>
 
       <Button
@@ -32,23 +32,23 @@ export const ThreadList: FC<ThreadListProps> = ({ currentPerson, onChange }) => 
         className={`justify-start ${currentPerson === "Bronx yankee" ? "font-bold" : ""}`}
         onClick={() => onChange("Bronx yankee")}
       >
-        Bronx yankee
+        Bronx yankee🗽
       </Button>
 
       <Button
-        variant={currentPerson === "Brixton roadman" ? "secondary" : "ghost"}
-        className={`justify-start ${currentPerson === "Brixton roadman" ? "font-bold" : ""}`}
-        onClick={() => onChange("Brixton roadman")}
+        variant={currentPerson === "London roadman" ? "secondary" : "ghost"}
+        className={`justify-start ${currentPerson === "London roadman" ? "font-bold" : ""}`}
+        onClick={() => onChange("London roadman")}
       >
-        Brixton roadman
+        London roadman🇬🇧
       </Button>
 
       <Button
-        variant={currentPerson === "Scarborough gerbert" ? "secondary" : "ghost"}
-        className={`justify-start ${currentPerson === "Scarborough gerbert" ? "font-bold" : ""}`}
-        onClick={() => onChange("Scarborough gerbert")}
+        variant={currentPerson === "Toronto gerbert" ? "secondary" : "ghost"}
+        className={`justify-start ${currentPerson === "Toronto gerbert" ? "font-bold" : ""}`}
+        onClick={() => onChange("Toronto gerbert")}
       >
-        Scarborough gerbert
+        Toronto gerbert🇨🇦
       </Button>
     </div>
   );
